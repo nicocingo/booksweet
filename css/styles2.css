@@ -1,0 +1,42 @@
+body{
+  background-color: black;
+  font-size: 25px;
+  color: black;
+  font-family: "Gill Sans MT";
+}
+
+.todomenosboton{
+  color: white;
+  -webkit-text-stroke: 1px #F79DDA;
+}
+
+.redes{
+  float: left;
+  width: 38%;
+}
+
+.video1{
+text-align: center;
+float: right;
+margin-right:35%
+}
+
+#Facebook{
+  width: 10%;
+}
+
+#Instagram{
+  width: 11%;
+}
+
+#Twitter{
+  width: 11%;
+}
+
+#Patreon{
+  width: 10%;
+}
+
+#p1{
+  color: black
+}

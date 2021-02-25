@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+    <title>Book Sweet</title>
+<link href="img/logo.png" rel="icon" type="image/png">
+<link rel="stylesheet" href="css/styles2.css">
+</head>
+<body>
+<div class="todomenosboton">
+
+  <script>
+  function copiarAlPortapapeles(id_elemento) {
+var aux = document.createElement("input");
+aux.setAttribute("value", document.getElementById(id_elemento).innerHTML);
+document.body.appendChild(aux);
+aux.select();
+document.execCommand("copy");
+document.body.removeChild(aux);
+}
+  </script>
+
+<div class="video1">
+
+
+  <video width="400" height="730" controls>
+    <source src="vid/video1.mp4" type="video/mp4">
+  Su buscador web no soporta el tag de video.
+  </video>
+
+</div>
+
+<div class="redes">
+
+<h3>¡Seguinos en nuestras redes sociales!</h3>
+
+<ul>
+  <li><a title="Facebook" href="https://www.facebook.com/BookSweet/"><img id="Facebook" src="red/Facebook.png" alt="Error, compruebe la coneccion a internet" /></a></li>
+  <li><a title="Instagram" href="https://www.instagram.com/booksweet/?hl=es-la"><img id="Instagram" src="red/Instagram.png" alt="Error, compruebe la coneccion a internet" /></a></li>
+  <li><a title="Twitter" href="https://twitter.com/booksweet"><img id="Twitter" src="red/Twitter.png" alt="Error, compruebe la coneccion a internet" /></a></li>
+</ul>
+
+
+<h3>Apoyanos en:</h3>
+
+<ul>
+  <li><a title="Patreon" href="https://www.patreon.com/booksweet"><img id="Patreon" src="red/Patreon.png" alt="Error, compruebe la coneccion a internet" /></a></li>
+</ul>
+
+<h3>Y mandanos todas tus consultas y pedidos a:</h3>
+
+</div>
+
+<p id="p1">BookSweetAgendas@gmail.com</p>
+
+</div>
+<input type="button" onclick="copiarAlPortapapeles('p1')" value="¡Copia el mail al portapapeles!">
+
+
+
+</div>
+
+</body>
+</html>
